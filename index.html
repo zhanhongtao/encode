@@ -12,11 +12,11 @@
       <button id="encode216">encode216</button>
       <button id="encode210">encode210</button>
       <button id="encode28">encode28</button>
-      <button id="unicode">unicode</button>
-      <button id="encodeX">encodex</button>
-    </div>
-    <div class="ip">
-      <button id="ipcode">ip28</button>
+      <button id="encodeX">encodex216</button><br />
+      <button id="decode" data-base="16" data-left="&#x" data-right=";">decode216</button>
+      <button id="decode" data-base="10" data-left="&#" data-right=";">decode210</button>
+      <button id="decode" data-base="8" data-left="\\" data-right="">decode28</button>
+      <button id="decode" data-base="16" data-left="\\x" data-right="">decode2x16</button>
     </div>
     <div class="base64">
       <button id="base64Encode">base64Encode</button>
@@ -30,11 +30,13 @@
       <button id="escape">escape</button>
       <button id="unescape">unescape</button>
     </div>
-    <!--
-    <div class="decode">
-      <button id="decode">decode</button>
+    <div class="unicode">
+      <button id="unicode">unicode</button>
+      <button id="decode" data-base="16" data-left="\\u" data-right="">decode</button>
     </div>
-    -->
+    <div class="ip">
+      <button id="ipcode">ip28</button>
+    </div>
   </section>
   <section id="body">
     <textarea id="code"></textarea>
