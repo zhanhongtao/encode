@@ -1,4 +1,3 @@
-#head div { margin: 5px 0 }
 textarea {
   float: left;
   height: 200px;
@@ -28,4 +27,4 @@ textarea#result {
   padding: 10px 0;
 }
 
-button  { padding: 4px 10px; cursor: pointer }
+button  { margin: 5px 0; padding: 4px 10px; cursor: pointer }
